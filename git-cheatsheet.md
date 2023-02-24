@@ -65,3 +65,15 @@ git tag | xrags git tag --delete
 __GIT BRANCHING__
 git branch
 git checkout <branch-name>
+git checkut -b <branch-name> #create branch and checkout to it 
+git merge <branch-name>
+git branch -d <branch-name> #remove only when branch merged
+git merge --abort #Undo last merge
+git pull <remote>  #pulling form main branch of remote
+git pull <remote> <branch>
+git branch -v
+git branch -a # list remote and local branches
+git branch --merged
+git branch --no-merged
+git branch -D <branch> # Force delete branch
+
