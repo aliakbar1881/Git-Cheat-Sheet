@@ -85,3 +85,4 @@ git push origin --deldete testing # Delete a branch from remote
 git push --origin
 git rebase <branch>
 git rebase --continue
+git diff --check   # check the unused spcaes in the last og the line
