@@ -76,4 +76,12 @@ git branch -a # list remote and local branches
 git branch --merged
 git branch --no-merged
 git branch -D <branch> # Force delete branch
-
+git fetch <remote>  #comparsion between remote and local not pulling branch from remote
+git fetch --all
+git checkout -b <branch-name> <remote>/<branch-name>
+Ex: git checkout test origin/test
+Ex: git checkout --track origin/testing
+git push origin --deldete testing # Delete a branch from remote
+git push --origin
+git rebase <branch>
+git rebase --continue
