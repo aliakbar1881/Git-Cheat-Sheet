@@ -76,6 +76,7 @@ git branch -a # list remote and local branches
 git branch --merged
 git branch --no-merged
 git branch -D <branch> # Force delete branch
+git branch --move <old-branch-name> <new-branch-name> # rename branch
 git fetch <remote>  #comparsion between remote and local not pulling branch from remote
 git fetch --all
 git checkout -b <branch-name> <remote>/<branch-name>
